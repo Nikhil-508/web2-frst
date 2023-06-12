@@ -1,0 +1,389 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+  .logo{
+    padding-left: 36px;
+    padding-top: 8px;
+}
+  .navtxt1 a{
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: large;
+    font-weight: 500;
+    padding-left: 20px;
+
+   
+}
+ .navtxt2 a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    padding: 20px;
+}
+.icons{
+    margin-right: 20px;
+    word-spacing: 35px;
+
+}
+.bgimg1{
+    height: 620px;
+    width: 1677px;
+    background-repeat:no-repeat;
+}
+.mid1{
+    position: relative;
+    overflow: hidden;
+}
+.bg1txt h1{
+    font-size: 42px;
+    position: absolute;
+    top: 31%;
+    left: 124px;
+}
+.bg1txt h2{
+    font-size: 32px;
+    font-weight: 300;
+    position: absolute;
+    top: 41%;
+    left: 124px;
+}
+.btn1{
+    background-color: black;
+    width: 150px;
+    height: 43px;
+    font-size: 20px;
+    position: absolute;
+    top: 58%;
+    left: 145px;
+  }
+  .btn1 a{
+    text-decoration: none;
+    color: white;
+  }
+  .mid2{
+    overflow: hidden;
+    position: relative;
+    
+  }
+  .bgimg2{
+    width: 100%;
+    height: 600px;
+  }
+  .bg2txt h2{
+    font-size: 32px;
+    position: absolute;
+    top: 54%;
+    left: 124px;
+  }
+  .btn2{
+    background-color: black;
+    width: 150px;
+    height: 43px;
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    left: 127px;
+  }
+  .btn2 a{
+    text-decoration: none;
+    color: white;
+  }
+  .mid3{
+    position: relative;
+  }
+  .grid1{
+    width: 737px;
+    height: 483px;
+    margin-left: 16px;
+  }
+  .btn3{
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 340px;
+    top: 220px;
+  }
+  .btn3 a{
+    color: white;
+    text-decoration: none;
+  }
+  .grid2{
+    width: 734px; ;
+    height: 482px;
+    margin-left: 17px;
+  }
+  .grid2txt{
+    color: white;
+    position: relative;
+  }
+  .grid2txt h1{
+    width: 363px;
+    height: 37px;
+    font-size: 39px;
+    position: absolute;
+    bottom: 397px;
+    right: 193px;
+  }
+  .btn4{
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 299px;
+    right: 338px;
+  }
+  .btn4 a{
+    color: white;
+    text-decoration: none;
+  }
+  .grid2txt h2{
+    font-weight: 200;
+    font-size: 24px;
+    position: absolute;
+    bottom: 343px;
+    right: 256px;
+  }
+  .mid4{
+    position: relative;
+  }
+ .grid3{
+    width: 734px; ;
+    height: 482px;
+    margin-left: 17px;
+ }
+ .grid3txt h1{
+    color: white;
+    font-size: 39px;
+    position: absolute;
+    bottom: 440px;
+    left: 210px;
+ }
+ .grid3txt h2{
+    color: white;
+    font-weight: 200;
+    font-size: 41px;
+    position: absolute;
+    bottom: 382px;
+    left: 233px;
+
+ }
+ .btn5{
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 299px;
+    left: 338px;
+}
+.btn5 a{
+    color: white;
+    text-decoration: none;
+}
+.grid4{
+    position: absolute;
+    top: 1px;
+    right: 383px;
+    width: 362px;
+    height: 481px;
+}
+.grid5{
+    position: absolute;
+    bottom: 5px;
+    right: 1px;
+    width: 369px;
+    height: 300px;
+}
+.grid4txt h1{
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    bottom: 445px;
+    left: 812px;
+}
+.btn6{
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 308px;
+    right: 521px;
+}
+.btn6 a{
+    color: white;
+    text-decoration: none;
+}
+.grid5txt h1{
+    color: black;
+    font-size: 36px;
+    position: absolute;
+    bottom: 445px;
+    right: 100px;
+}
+.mid4.grid5txt h2{
+    color: black;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.mid4 .grid5txt h2 {
+    position: absolute;
+    font-size:25px;
+    right: 130px;
+    top: 73px;
+    
+  }
+  .btn7{
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 325px;
+    right: 153px;
+}
+  .btn7 a{
+    color: orange;
+    text-decoration: none;
+  }
+  .mid5{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  .note12{
+    width: 680px ;
+    height:458px;
+  }
+  .content{
+    position: relative;
+  }
+  .content h3{
+    position: absolute;
+    color: orange;
+    right: -483px;
+    bottom: 181px;
+  }
+  .content h1{
+    position: absolute;
+    right: -540px;
+    bottom: 113px;
+    font-size: 48px;
+  }
+  .content h4{
+    position: absolute;
+    right: -529px;
+    bottom: 64px;
+    font-size: 14px;
+    padding: 0px;
+  }
+  .btn8{
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: -463px;
+    top: 49px;
+
+  }
+  .btn8 a{
+    color: orange;
+    text-decoration: none;  
+  }
+footer{
+    background-color: black;
+    position: relative;
+    width: 1521px;
+    height: 602px;
+    color: #fff;
+    display: flex;
+
+}
+.sub1{
+left: 4px;
+margin-top: 10px;
+}
+.sub1 ul {
+  list-style-type: none;
+  margin: 40px;
+}
+.sub1 ul li{
+  list-style: none;
+  margin: 20px;
+}
+.sub2{
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.sub2 ul li{
+  list-style: none;
+  margin: 20px;
+}
+.sub3{
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.sub3 ul li{
+  list-style: none;
+  margin: 20px;
+}
+.sub4{
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.sub4 ul li{
+  list-style: none;
+  margin: 20px;
+}
+.right{
+  position: relative;
+    top: 100px;
+    margin-top: -28px;
+    left: 66px;
+}
+input{
+  background-color: transparent;
+  border-color: #fff;
+  border-width: 2px;
+  box-sizing: ;
+}
+.qrcode{
+
+  position: relative;
+    right: 93px;
+    top: 326px;
+    width: 85px;
+    height: 85px;
+}
+.rightdown h1{
+  position: relative;
+    right: -15px;
+    top: 235px;
+    font-size: 20px;
+
+}
+.rightdown h2{
+  position: relative;
+    right: -17px;
+    top: 235px;
+    font-size: 16px;
+
+}
+
